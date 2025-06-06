@@ -4,7 +4,7 @@ from transformers import AutoTokenizer
 from datasets import load_dataset
 from random import randint
  
-peft_model_id = "./llama-3-70b-hf-no-robot"
+peft_model_id = "./llama-3-8b-chat-doctor"
  
 # Load Model with PEFT adapter
 model = AutoPeftModelForCausalLM.from_pretrained(
